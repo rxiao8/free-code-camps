@@ -1,0 +1,182 @@
+.blue_color1{
+    background-color: rgb(82, 180, 212);
+}
+
+body{
+    background-color: hsl(50% 50% #b0c4de);
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    letter-spacing: .1em;
+    word-spacing: .1em;
+}
+
+footer{
+    position: sticky;
+ 
+}
+
+footer #copyright{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    height: 3em;
+
+    background-color: mediumaquamarine;
+
+}
+
+
+#grid{
+    display: grid;
+    grid-template-rows: 1fr 10%;
+
+
+    width: 100%;
+    height: fit-content;
+
+
+}
+
+#grid img{
+    grid-area: 1/1/3/2;
+    border: 1px outset teal;
+
+}
+
+#grid span{
+    grid-area: 2/1/3/2;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    background-color: lightblue;
+    opacity: .6;
+    
+
+    text-align: center;
+    align-self: end;
+
+    width: 580px;
+
+    
+}
+
+#grid span:hover{
+    transform-origin: bottom;
+    height: 295px;
+
+    font-weight: bold;
+}
+
+#img-div {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
+    margin: 5em;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+
+    border-radius: 2em;
+    
+    min-width: 800px; 
+
+}
+
+
+
+#img-caption{
+    width: 40%;
+    text-align: center;
+
+}
+
+#img-caption p{
+    width: 100%;
+    height: 60%;
+    min-width: 250px;
+
+
+}
+
+.insetBorder{
+    border: 1px inset blue;
+}
+
+.min-width{
+
+    min-width: 300px;
+}
+
+#nav_container{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    height: 3em;
+
+    background-color: mediumaquamarine;
+
+    align-items: center;
+}
+
+#nav_container div:hover{
+    transform-origin: top;
+    transform: scale(1.1);
+
+    font-weight: bold;
+}
+
+#image{
+    border-radius: 50%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  max-width: 293px;
+}
+
+
+
+.textAlignCenter{
+    text-align: center;
+    
+}
+#tribute-info{
+    display: grid;
+    position: relative;
+    
+    min-width: fit-content;
+    height: auto;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "para para"
+    "time grid"
+    "link color";
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20% 60% 80%;
+
+    padding: 30px;
+    margin: 10px;
+    background-color: rgb(95, 206, 243);
+
+}
+
+@media (max-width: 864px) {
+    body{
+        font-size: small;
+        background-color: hsl(50% 50% #48d1cc);
+        
+    }
+
+}

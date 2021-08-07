@@ -1,0 +1,124 @@
+/*
+
+#description{
+
+}
+
+#drop-down{
+
+}
+
+#email{
+
+}
+
+#email-label{
+
+}
+
+
+#name{
+
+}
+
+#name-label{
+
+}
+
+#number{
+
+}
+
+#number-label{
+
+}
+
+#radio{
+    
+}
+#submit{
+
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    
+}
+#title{
+
+}
+*/
+.blockSections{
+    display: block;
+    padding: 5px;
+    
+    width: 70%;
+    border-radius: .5em;
+}
+
+.blockSections:hover{
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+body{
+    background-image: linear-gradient(
+        rgba(58, 66, 140, 0.9),
+        rgba(58, 66, 140, 0.9)),
+        url(/images/frontOfTheHouse_2.jpg);
+}
+
+button{
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    color:rgba(0, 0, 0, .7);
+}
+
+button:hover{
+    color:rgba(0, 0, 0, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+#commentSec textarea{
+    width: 500px;
+    margin-left: 10%;
+
+}
+
+header{
+    border-radius: .5em;
+    text-align: center;
+    background-color: lightcoral;
+}
+html{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: .8px;
+    word-spacing: 2px;
+}
+.sectionControl{
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
+#survey-form{
+    background: linear-gradient(#e66465, #9198e5);
+    
+    position: relative;
+
+    border-radius: 2em;
+    width: 700px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

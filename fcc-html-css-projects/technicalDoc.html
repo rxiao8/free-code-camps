@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Carrd Tutorial</title>
+    <meta>
+    <link rel="stylesheet" href="technicalDoc.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>
+        <p>How to Get Started With Carrd</p>
+        <span>Simple and easy way to create personalized one-page sites.</span>
+      </header>
+        <ul>
+          <li><a href="#Basics" class="nav-link">Basics</a></li>
+          <li><a href="#Templates_&_Blanks" class="nav-link">Templates & Blanks</a></li>
+          <li><a href="#Editing" class="nav-link">Editing</a></li>
+          <li><a href="#Animations_and_Gifs" class="nav-link">Animations and Gifs</a></li>
+          <li><a href="#External_Resources_&_Published_Examples" class="nav-link">External Resources & Published Examples</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+      <section id="Basics" class="main-section">
+        <header>Basics</header>
+        <p>To begin with, navigating through Carrd's dashboard is self-explanatory. There is the common tabs for: projects, notifications, help section (even a <a href="https://carrd.co/docs/sites" target="_blank">documation</a> is available), profile settings, and an optional for an upgrade.</p>
+        <p>When starting out, if you plan to just have fun and create fanpages or sites with no intent of monetization, opting for the free access is perfectly fine. Once you plan to incorporate multiple sites, requiring branding, APIs, and advance features, it is highly recommended to upgrade.</p>
+        <span>The options for upgrade include the following:</span>
+        <code></code>
+        <li>Pro Lite - $9/yr</li>
+        <li>Pro Standard - $19/yr</li>
+        <li>Pro Plus - $49/yr</li>
+      </section>
+      <section id="Templates_&_Blanks" class="main-section">
+        <header>Templates & Blanks</header>
+        <p>Carrd offers a great variety of templates for new users or for the experienced to quickly construct a page. Although there will be ones restricted to those who has upgraded, there is still good number available for free. They are categorized into the purpose of the page such as galleries, profiles, or forms just to name a few.</p>
+        <p>Of course, you are welcome to start from scratch as well. This is great for those who wants to dive in and construct from the very bottom or if they have a set visual they want to achieve.</p>
+        <span><strong>It is here where I will highly recommend you to ideate what you want to accomplish. Not only is it frustrating if your work gets lost during the process, but also a slight con for many is how Carrd does not allow drafts to be created. Once you open a new file, you must be ready to publish it. You will still be able to make changes after the matter, but just be aware of this feature.</strong></span>
+      </section>
+      <section id="Editing" class="main-section">
+        <header>Editing</header>
+        <p>Once a template or blank canvas has been selected, you are ready to customize and edit however you like. The layout and features are very similar to CSS & Html for those who have tinkered with the markup languages. You are able to edit the background and add containers to which can hold features such as images, tables, text, etc. Again, the changes you make are close to making changes in CSS except here you are given graphic user interfaces as oppose to code lines. For example, you code adjust a textbox's <code>width: --px; height: --px; border: --px; padding: --px; and margin: --px;</code></p>
+        <p>There are some things only available to the Pro Version such as being able to embed actual CSS source codes as well as being able to add animations, slideshows, widgets, and form. The entire settings tab for features are locked unless you purchase the pro version, and the additional benefits include being able to add <code>id="" & class=""</code></p>
+        <p>Color options include the color wheel with multiple hues and scale for saturation. Carrd can also take color names in HEX decimals such as the following <code>style="color: #4AADBA"</code></p>
+      </section>
+      <section id="Animations_and_Gifs" class="main-section">
+        <header>Animations and Gifs</header>
+        <p>Although being able to embed animations will not be available to the free version, being aware of the niches and finishing touches it can bring to the website should be considered if you are considering upgrading. The animations lessens the static feel to the site and opens a door to more variety.</p>
+        <p>
+        To add an animation, have the code/script of it available. You can find amazing websites that offer free, customizable animations such as <a href="https://lottiefiles.com/search?q=sexy&category=animations" target="_blank">this one</a>. From there, go ahead and select an embed element. In the element is a <underline>settings</underline> tab that contains a dropdown called type. Select code type and you will see a textbox show up where the code snipet should be pasted.Publish your carrd and the addition can be viewed. Here is an example of what the script looks like:
+        Plays when hover
+        <br>
+        <div id="animation-script">
+        <code><pre>
+          <span>&ltscript</span>
+          <span>src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"&gt</span>
+          <span>&lt/script&gt</span><br>
+          <span>&ltlottie-player src="https://assets5.lottiefiles.com/datafiles/wqxpXEEPRQf1JnQ/data.json"  background="transparent"  speed="1"  style="width: 400px; height: 300px;" hover loop  autoplay&gt</span>
+          <span>&lt/lottie-player&gt</span>
+          </pre></code>
+        </div>
+        <pre><code><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player src="https://assets5.lottiefiles.com/datafiles/wqxpXEEPRQf1JnQ/data.json"  background="transparent"  speed="1"  style="width: 400px; height: 300px;" hover loop  autoplay></lottie-player></code></pre>
+        </p>
+        <p>Not only are you allowed to add animated pictures, but animations on scroll are permitted as well. Select an embed element, go to style and select "hidden" and "head" in the two dropdowns respectfully, and paste the code.</p>
+        <p>A field called Attributes is available alternative scrolling behaviors.</p>
+        <code><pre>
+          <span>data-aos=fade-right</span>
+          <span>data-aos-easing=ease-in-out</span>
+          <span>data-aos-duration=1300</span>
+        </pre></code>
+        <p>Gifs are easily added as well. Simply find a gif you like, download it as a JPEG, and upload the file in your image element.</p>
+      </section>
+      <section id="External_Resources_&_Published_Examples" class="main-section">
+        <header>External Resources & Published Examples</header>
+        <p></p>
+        <code></code>
+        <li><a href="https://ezgif.com/optimize" target="_blank">Resizes GIFs</a></li>
+        <li><a href="https://www.messletters.com/en/" target="_blank">Offers Font Styles</a></li>
+        <li><a href="https://app.streamlinehq.com/icons" target="_blank">Free Icons</a></li>
+
+
+        <p>To give you a boost of inspiration, here are a few finished sites published by small business using Carrd.</p>
+        <li><a href="https://cakematix.carrd.co/#" target="_blank">CakeMatrix</a></li>
+        <li><a href="https://bytheriverbend.carrd.co/" target="_blank">By the Riverbend</a></li>
+        <li><a href="https://ohanasushiramen.carrd.co/" target="_blank">O'Hana Sushi & Ramen</a></li>
+        <li><a href="https://blackownedbaby.carrd.co/" target="_blank">Black-Owned Business Directory</a></li>
+        <li><a href="https://salmonellafish.carrd.co/" target="_blank">Artist Salmonella Fish</a></li>
+      </section>
+    </main>
+  </body>
+</html>
+<!--Figure out last section, find all 5 codes, need 4-5 more <p>, and some images-->

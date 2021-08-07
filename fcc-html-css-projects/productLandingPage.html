@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="productLandingPage.css">
+    </head>
+    <body>
+        <div id="background-image"></div>
+        <div id="content">
+        <header id="header">
+            <img id="header-img" src="/images/157c739f5b1f4fbeaaf19311c33b8d22 (1).png" alt="BrushLush Logo">
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#card1-link" class="nav-link">Video</a></li>
+                    <li><a href="#card2-link" class="nav-link">Product Cards</a></li>
+                    <li><a href="#card3-link" class="nav-link">Brush Types</a></li>
+                </ul>
+
+
+
+            </nav>
+        </header>
+
+        <form id="form" action="https://www.freecodecamp.org/email-submit" method="GET">
+            <label for="email">Want notifications about our events and offers? Sign up to our newsletter!</label>
+            <br>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address">
+
+            <input
+                type="submit"
+                id="submit" value="Let's Begin">
+        </form>
+
+        <div id="videoContainer" class="blue-features">
+        <a id="card1-link"><span>A video describing the differences of watercolor brush hairs.</span></a><br>
+
+        <video
+            id="video"
+            width="500"
+            height="250"
+            autoplay
+            muted
+            controls>
+            <source src="/videos/Art of Making Brushes Volume 1..mp4" type="video/mp4">
+        </video>
+        </div>
+
+        <a id="card2-link">
+            <div id="products">
+        </a>
+        <div id="prod1" class="productInfoCards">
+            <strong><span>Natural Hair Brushes</span></strong>
+            <img
+                class="product-images"
+                src="/images/SquirrelBrushes.jpg"
+                alt="Natural Hair Brushes">
+            <ul>
+                <li>Male Kolinsky</li>
+                <li>Sable</li>
+                <li>Squirrel</li>
+                <li>Goat</li>
+                <li>Wolverine</li>
+            </ul>
+        </div>
+        <div id="prod2" class="productInfoCards">
+            <strong><span>Synthetic Brushes</span></strong>
+            <img
+                class="product-images"
+                src="/images/SyntheticBrushes.jpg"
+                alt="Synthetic Hair Brushes">
+            <ul>
+                <li>Nylon</li>
+                <li>Polyester</li>
+                <li>Mix of nylon and polyester</li>
+            </ul>
+        </div>
+        <div id="prod3" class="productInfoCards">
+            <strong><span>Mixed Hair Brushes</span></strong>
+            <img
+                class="product-images"
+                src="/images/SyntheticSable.jpg"
+                alt="Mixed/Blend Hair Brushes">
+            <ul>
+                <li>Sable with synthetic fibers</li>
+            </ul>
+        </div>
+        </div>
+         <a id="card3-link">
+            <div id="brush-types" class="blue-features"></a>
+            <p><strong> Another thing to consider are the different shapes of watercolor brushes offered. Below is a chart of the some of the more common ones:</strong></p>
+            <img
+                id="type-img"
+                src="/images/brusheTypes.jpg"
+                alt="A chart showcasing the different types of watercolor brushes.">
+        </div>
+        </div>
+
+        <footer>
+            <span>Rose Xiao &#169 2021</span>
+            <span class="float-right">Email: code@gmail.com</span>
+            <span class="float-right">Phone: 1-###-###-####</span>
+    </footer>
+    </body>
+</html>

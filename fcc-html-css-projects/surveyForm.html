@@ -1,0 +1,211 @@
+<!--<!DOCTYPE html>
+<html>
+    terrible version <head>
+
+    </head>
+    <body>
+        <h1 id="title">Front of the House Survey Form</h1>
+        <p id="description">Objective is to hire those interested in helping out in the front of the house who fullfill our needs and requirements.</p>
+
+        <form id="survey-form">
+            <div id="name">
+            <label for="name-label"> Name </label>
+                <input id="name-label" type="text" placeholder="Enter Your Name">
+            </div>
+            <div id="email">
+            <label for="email-label"> Email Address<label>
+                <input id="email-label" type="email" placeholder="Enter Your Email Address">
+            </div>
+            <div id="number">
+            <label for="number-label">Phone Number<label> 
+                <input id="number-label" type="number" placeholder="Enter Your Phone Number: /Area Code" min="10" max="10">
+            </div>
+
+            <div id="drop">
+            <label for="dropdown">Do you accquire any of the following additional skills listed?
+                <select id="dropdown">
+                    <option value="Accounting">Accounting</option>
+                    <option value="Interior Design">Interior Design</option>
+                    <option value="Inventory Manager">Inventory Manager</option>
+                </select>
+            </label>
+        </div>
+            <div id="radio">
+            <p>Have you had experience working at the Front of the House? If yes, how many years?</p>
+                <label><input type="radio" name="radioButtons" checked>Yes, more than 5 years</label>
+               <label><input type="radio" name="radioButtons">Yes, between 1-5 years</label>
+                <label><input type="radio" name="radioButtons">Yes, less than a years</label>
+                <label><input type="radio" name="radioButtons">No experience</label>
+                
+        </div>
+            <div id="check">
+            <label for="checkboxes">Select the positions that interest you:
+                <input type="checkbox" name="checkboxes" value="General Manager" checked>General Manager
+                <input type="checkbox" name="checkboxes" value="Front of the House Manager" >Front of the House Manager
+                <input type="checkbox" name="checkboxes" value="Headwaiter/Captain" >Headwaiter/Captain
+                <input type="checkbox" name="checkboxes" value="Sommelier" >Sommelier
+                <input type="checkbox" name="checkboxes" value="Bartender" >Bartender
+                <input type="checkbox" name="checkboxes" value="Server" >Server
+                <input type="checkbox" name="checkboxes" value="Host/Hostess" >Host/Hostess
+                <input type="checkbox" name="checkboxes" value="Food Runner" >Food Runner
+                <input type="checkbox" name="checkboxes" value="Bar-back" >Bar-back
+                <input type="checkbox" name="checkboxes" value="Busser" >Busser
+            </label>
+        </div>
+            <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Additional comments or concerns you have for us."></textarea>
+
+            <button id="submit">Submit</button>
+        </form>
+    </body>-->
+
+<html>
+    <head>
+    <title>Survey</title>
+    <meta>
+    <link rel="stylesheet" href="surveyForm.css">
+    </head>
+<body>
+    <header class="sectionControl">
+        <h1 id="title">Survey Form</h1>
+        <h3><p id="description">Objective is to find individuals who are interested in working front of the house.</p></h2>
+    </header>
+    <form id="survey-form">
+        <div class="sectionControl">
+            <label id="name-label" class="blockSections">Name</label>
+            <input 
+                type="text" 
+                id="name" 
+                name="name"
+                class="blockSections" 
+                placeholder="Enter your name" 
+                required>
+        </div>
+        <div class="sectionControl">
+            <label id="email-label" class="blockSections">Email</label>
+            <input 
+                type="email" 
+                id="email" 
+                name="email"
+                class="blockSections" 
+                placeholder="Enter your email" 
+                required>
+        </div>
+        <div class="sectionControl">
+            <label id="number-label" class="blockSections">Phone Number</label>
+            <input 
+                type="number" 
+                id="number" 
+                name="number"
+                class="blockSections" 
+                placeholder="Enter your age" 
+                min="10"
+                max="99"
+                required>
+        </div>
+        <div id="dropdown" class="sectionControl">
+            <p>Select the best time for you to work:</p>
+            <select name="dropDown" id="dropDown">
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+            </select>
+        </div>
+        <div name="radioButtons" class="sectionControl" required>
+            <p>Have you had experience working at the Front of the House? If so, how many years?</p>
+                <label class="blockSections"><input 
+                    type="radio" 
+                    name="radioButtons"
+                    value="1"
+                    checked>Yes, more than 5 years</label>
+                <label class="blockSections"><input 
+                    type="radio" 
+                    name="radioButtons"
+                    value="2"
+                    >Yes, between 1-5 years</label>
+                <label class="blockSections"><input 
+                    type="radio" 
+                    name="radioButtons"
+                    value="3"
+                    >Yes, less than a years</label>
+                <label class="blockSections"><input 
+                    type="radio" 
+                    name="radioButtons"
+                    value="4"
+                    >No experience</label>
+        </div>
+        <div id="checkbox" class="sectionControl">
+            <p>Select the roles that interest you. 
+                <span>(Minimum of 3 roles.)</span></p>
+            
+            <label for="general-manager" class="blockSections">
+                <input 
+                type="checkbox" 
+                name="checkboxList" 
+                value="general-manager">General Manager
+            </label>
+            <label for="headwaiter-captain" class="blockSections">
+                <input 
+                type="checkbox" 
+                name="checkboxList" 
+                value="headwaiter-captain">Headwaiter/Captain
+            </label>
+            <label for="sommelier" class="blockSections">
+                <input 
+                type="checkbox" 
+                name="checkboxList" 
+                value="sommelier">Sommelier
+            </label>
+            <label for="bartender" class="blockSections">
+                <input 
+                type="checkbox" 
+                name="checkboxList"
+                value="bartender">Bartender
+            </label>
+            <label for="Server" class="blockSections">
+                <input 
+                type="checkbox" 
+                name="checkboxList" 
+                
+                value="server">Server
+            </label>
+            <label for="host-hostess" class="blockSections">
+                <input 
+                type="checkbox" 
+                name="checkboxList" 
+                
+                value="host-hostess">Host/Hostess
+            </label>
+            <label for="food-runner" class="blockSections">
+                <input 
+                type="checkbox" 
+                name="checkboxList" 
+                
+                value="food-runner">Food Runner
+            </label>
+            <label for="bar-back" class="blockSections">
+                <input 
+                type="checkbox" 
+                name="checkboxList" 
+               
+                value="bar-back">Bar-back
+            </label>
+            <label for="busser" class="blockSections">
+                <input 
+                type="checkbox" 
+                name="checkboxList" 
+                
+                value="busser">Busser
+            </label>
+        </div>
+        <div id="commentSec">
+        <textarea 
+            name="comments" 
+            id="comments" 
+            cols="30" 
+            rows="10" 
+            placeholder="Additional comments or concerns"></textarea><br>
+        </div>
+        <button id="submit">Submit</button>
+    </form>
+</body>
+</html>
